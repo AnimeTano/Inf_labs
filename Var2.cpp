@@ -9,13 +9,13 @@ int main() {
 	std::cin >> fuel;
 
 	if (fuel > 50.0) {
-		std::cout << "Топлива достаточно";
+		std::cout << "Enough Fuel";
 	}
 	else if (fuel < 20.0) {
-		std::cout << "Топливо на исходе, срочно заправьтесь!";
+		std::cout << "Fuel is running out, refuel urgently!";
 	}
 	else {
-		std::cout << "Рекомендуется заправка";
+		std::cout << "refueling recommended";
 	}
 
 	return 0;
